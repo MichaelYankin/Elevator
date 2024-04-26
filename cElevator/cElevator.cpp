@@ -104,6 +104,7 @@ cElevator::cElevator(int floor, int max_floors) :
 /* Деструктор */
 cElevator::~cElevator() {
     delete[] passengerRequests;
+    delete[] passengerCalls;
 }
 
 /* Вывод состояния */
